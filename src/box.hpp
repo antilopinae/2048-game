@@ -1,6 +1,8 @@
-#pragma once
+#ifndef BOX_H
+#define BOX_H
 
-struct Box {
+struct Box
+{
     int xGrid = 0;
     int yGrid = 0;
     int xGridNext = 0;
@@ -25,3 +27,5 @@ struct Box {
     void merge();
     void update();
 };
+
+#endif // BOX_H
